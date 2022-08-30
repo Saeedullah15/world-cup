@@ -71,40 +71,41 @@ body {
     font-weight: 500;
 }
 
+.side-nav h4 a {
+    text-decoration: none;
+    color: black;
+}
+
 .side-nav .red-highlighter {
     color: white;
     background-color: rgba(221, 0, 0, 1);
 }
 
-.blog {
+.match {
     width: 300px;
     background-color: rgb(243, 243, 243);
     border-radius: 8px;
 }
 
-.blog-image img {
-    width: 100%;
+.match-image {
+    display: flex;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
-.blog-text {
-    padding: 15px;
+.match-image h5 {
+    padding: 0px 18px;
 }
 
-.blog-text p {
-    display: inline-block;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 3px 15px;
+.match-text {
+    text-align: center;
+    margin-bottom: 50px;
+    line-height: 10px;
 }
 
-.blog-text span {
-    margin-right: 30px;
-    color: rgba(22, 22, 22, 0.8);
-}
-
-.watch,
-.text {
-    margin-right: 10px;
+.match-text small {
+    color: gray;
 }
 
 /* goal section styles */
