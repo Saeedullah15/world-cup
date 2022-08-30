@@ -40,12 +40,16 @@ body {
     margin-top: 30px;
 }
 
+.banner-image {
+    margin-top: 30px;
+}
+
 .arrow {
     margin-left: 15px;
 }
 
-/* blog section styles */
-.blogs {
+/* match section styles */
+.matches {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding-top: 50px;
@@ -85,6 +89,8 @@ body {
     width: 300px;
     background-color: rgb(243, 243, 243);
     border-radius: 8px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .match-image {
@@ -134,4 +140,24 @@ body {
 
 .goal div {
     text-align: center;
+}
+
+/* tablet view */
+@media screen and (max-width: 992px) {
+    .matches {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* mobile view */
+@media screen and (max-width: 768px) {
+    .banner {
+        display: block;
+    }
+
+    .matches {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .goal {}
 }
